@@ -1,0 +1,184 @@
+.div {
+  height: 100%;
+  background-color: "#23202e";
+  -webkit-box-align: "center";
+      -ms-flex-align: "center";
+          align-items: "center";
+  -webkit-box-pack: "center";
+      -ms-flex-pack: "center";
+          justify-content: "center";
+}
+
+.divInput {
+  width: "81%";
+  margin-top: 45;
+  margin-bottom: 45;
+}
+
+.inputLogin {
+  height: 51;
+  border-width: 1;
+  border-color: "grey";
+  width: "100%";
+  padding: 10;
+  border-top-left-radius: 21;
+  border-top-right-radius: 21;
+}
+
+.inputPassword {
+  height: 51;
+  border-width: 1;
+  border-color: grey;
+  width: 100%;
+  padding: 10;
+  border-bottom-left-radius: 21;
+  border-bottom-right-radius: 21;
+}
+
+.buttonEntrar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #604e99;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+  height: 45;
+  border-radius: 12;
+}
+
+.buttonOutline {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+  height: 45;
+  border-radius: 12;
+  border-width: 1;
+  border-color: #fff;
+}
+
+.title {
+  font-size: 42;
+  font-weight: bold;
+  color: #FAFAFA;
+}
+
+.subtitle {
+  color: grey;
+}
+
+.divider {
+  margin-top: 45;
+  margin-bottom: 45;
+  height: 1;
+  color: grey;
+}
+
+.icon {
+  height: 120;
+  width: 120;
+  border-radius: 90;
+  border-color: grey;
+  border-width: 1;
+}
+
+.div {
+  height: 100%;
+  background-color: "#23202e";
+  -webkit-box-align: "center";
+      -ms-flex-align: "center";
+          align-items: "center";
+  -webkit-box-pack: "center";
+      -ms-flex-pack: "center";
+          justify-content: "center";
+}
+
+.divInput {
+  width: "81%";
+  margin-top: 45;
+  margin-bottom: 45;
+}
+
+.inputLogin {
+  height: 51;
+  border-width: 1;
+  border-color: "grey";
+  width: "100%";
+  padding: 10;
+  border-top-left-radius: 21;
+  border-top-right-radius: 21;
+}
+
+.inputPassword {
+  height: 51;
+  border-width: 1;
+  border-color: grey;
+  width: 100%;
+  padding: 10;
+  border-bottom-left-radius: 21;
+  border-bottom-right-radius: 21;
+}
+
+.buttonEntrar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #604e99;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+  height: 45;
+  border-radius: 12;
+}
+
+.buttonOutline {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+  height: 45;
+  border-radius: 12;
+  border-width: 1;
+  border-color: #fff;
+}
+
+.title {
+  font-size: 42;
+  font-weight: bold;
+  color: #FAFAFA;
+}
+
+.subtitle {
+  color: grey;
+}
+
+.divider {
+  margin-top: 45;
+  margin-bottom: 45;
+  height: 1;
+  color: grey;
+}
+
+.icon {
+  height: 120;
+  width: 120;
+  border-radius: 90;
+  border-color: grey;
+  border-width: 1;
+}
+/*# sourceMappingURL=App.css.map */

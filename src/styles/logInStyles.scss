@@ -1,0 +1,78 @@
+.div {
+    height: 100%;
+    background-color:  #23202e;
+    align-items: center;
+    justify-content: center;
+}
+
+.divInput {
+    width: 81%;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.inputLogin {
+    height: 51px;
+    border-width: 1px;
+    border-color: grey;
+    width: 100%;
+    padding: 10px;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+}
+
+.inputPassword {
+    height: 51px;
+    border-width: 1px;
+    border-color: grey;
+    color: #FAFAFA;
+    width: 100%;
+    padding: 10px;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+}
+
+.buttonEntrar {
+    display: flex;
+    background-color: #604e99;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 45px; 
+    border-radius: 12px;
+}
+
+.buttonOutline {
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 45px; 
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: #fff;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #FAFAFA;
+}
+
+.subtitle {
+    color: grey;
+}
+
+.divider {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    height: 1;
+    color: grey;
+}
+
+.icon {
+    height: 120px;
+    width: 120px;
+    border-radius: 90px;
+    border-color: grey;
+    border-width: 1px;
+}
