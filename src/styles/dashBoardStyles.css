@@ -1,0 +1,165 @@
+.div {
+  height: 100%;
+  background-color: #23202e;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.divInput {
+  width: 81%;
+  margin-top: 36px;
+}
+
+.inputSearch {
+  height: 51px;
+  border-width: 1px;
+  border-color: grey;
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.buttonEntrar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #604e99;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+  height: 45px;
+  border-radius: 30px;
+}
+
+.buttonFilter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #604e99;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+  height: 45px;
+  border-radius: 30px;
+  margin-right: 9px;
+}
+
+.searchButtons {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 18px;
+}
+
+.buttonPost {
+  margin-bottom: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 310px;
+  height: 310px;
+  border-radius: 45px;
+  border-width: 1px;
+  border-color: #fff;
+}
+
+.buttonPostInside {
+  width: 100%;
+  height: 100px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  border-width: 1px;
+  border-color: #fff;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.userIcon {
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 10px;
+}
+
+.userIconText {
+  margin-horizontal: 18px;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #FAFAFA;
+}
+
+.subtitle {
+  color: grey;
+}
+
+.divider {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  color: grey;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.topBar {
+  width: 81%;
+  margin-top: 45px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.iconDashboard {
+  height: 45px;
+  width: 45px;
+  border-radius: 90px;
+  border-color: grey;
+  border-width: 1px;
+}
+
+.iconBurger {
+  height: 45px;
+  width: 45px;
+  border-radius: 9px;
+  border-color: grey;
+  border-width: 1px;
+}
+
+.value {
+  margin-horizontal: 30px;
+}
+/*# sourceMappingURL=dashBoardStyles.css.map */

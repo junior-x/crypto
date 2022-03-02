@@ -8,7 +8,7 @@ React Native CLI App with Sass
  
  <p align="center"><em>Simple social media app about NFTs using React-Native CLI.</p>
 
- ![App Preview](/assets/print/1.jpg)
+ ![App Preview](/assets/print/02.jpg)
 
 
 <p align="center"><em>Links para o SITE && PROJETO </p>
@@ -34,6 +34,12 @@ React Native CLI App with Sass
 <p align="center" float="left">Login wireframes before the next screen and start the navigation. </p>
 
  ![App Preview](/assets/print/01.jpg)
+
+
+----
+<p align="center" float="left">Dashboard wireframe, need some little adjusts and next step it is the user section. </p>
+
+ ![App Preview](/assets/print/02.jpg)
 
 ----
 <!-- <p align="center" float="left">função para passar as propriedades de cada informação. </p>
