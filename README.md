@@ -14,7 +14,7 @@ React Native CLI App with Sass
 <p align="center"><em>Links para o SITE && PROJETO </p>
 
 <p align="center">
-    http://event-tracker-teal.vercel.app/    https://www.figma.com/@juniorx
+    <!-- http://event-tracker-teal.vercel.app/ -->    https://www.figma.com/@juniorx
 </p>
 
 <!-- <p align="center" float="left">
