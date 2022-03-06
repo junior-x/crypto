@@ -1,0 +1,28 @@
+.topBar {
+  width: 81%;
+  margin-top: 45px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.iconDashboard {
+  height: 45px;
+  width: 45px;
+  border-radius: 90px;
+  border-color: grey;
+  border-width: 1px;
+}
+
+.iconBurger {
+  height: 45px;
+  width: 45px;
+  border-radius: 9px;
+  border-color: grey;
+  border-width: 1px;
+}
+/*# sourceMappingURL=topBarStyles.css.map */

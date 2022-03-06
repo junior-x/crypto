@@ -123,8 +123,7 @@
 }
 
 .divider {
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin-top: 12px;
   color: grey;
   -webkit-box-flex: 1;
       -ms-flex: 1;
