@@ -6,7 +6,8 @@ import {
   View, 
   Text, 
   TextInput,
-  TouchableOpacity
+  TouchableOpacity,
+  ScrollView
 } from "react-native";
 
 export default function Dashboard() {
@@ -33,40 +34,42 @@ export default function Dashboard() {
               <TouchableOpacity style={styles.buttonFilter}><Text style={{color: "#fff"}} >Illustrations</Text></TouchableOpacity>
             </View>
           </View>
-          <View style={styles.divider} >
-            <TouchableOpacity style={styles.buttonPost}>
-              <Text style={{color: "#fff"}} >Photo</Text>
-              <TouchableOpacity style={styles.buttonPostInside}>
-                <View style={styles.userIcon}>
-                  <View style={styles.iconDashboard} />
-                  <View style={styles.userIconText}>
-                    <Text style={{color: "grey"}}>Owned by</Text>
-                    <Text style={{color: "#FAFAFA"}}>Juniorx</Text>
+          <ScrollView overflow={false}>
+            <View style={styles.divider} >
+              <TouchableOpacity style={styles.buttonPost}>
+                <Text style={{color: "#fff"}} >Photo</Text>
+                <TouchableOpacity style={styles.buttonPostInside}>
+                  <View style={styles.userIcon}>
+                    <View style={styles.iconDashboard} />
+                    <View style={styles.userIconText}>
+                      <Text style={{color: "grey"}}>Owned by</Text>
+                      <Text style={{color: "#FAFAFA"}}>Juniorx</Text>
+                    </View>
                   </View>
-                </View>
-                <View style={styles.value}>
-                  <Text style={{color: "grey"}}>Price</Text>
-                  <Text style={{color: "#FAFAFA"}}>1.2 ETH</Text>
-                </View>
-              </TouchableOpacity>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.buttonPost}>
-              <Text style={{color: "#fff"}} >Photo</Text>
-              <TouchableOpacity style={styles.buttonPostInside}>
-                <View style={styles.userIcon}>
-                  <View style={styles.iconDashboard} />
-                  <View style={styles.userIconText}>
-                    <Text style={{color: "grey"}}>Owned by</Text>
-                    <Text style={{color: "#FAFAFA"}}>Juniorx</Text>
+                  <View style={styles.value}>
+                    <Text style={{color: "grey"}}>Price</Text>
+                    <Text style={{color: "#FAFAFA"}}>1.2 ETH</Text>
                   </View>
-                </View>
-                <View style={styles.value}>
-                  <Text style={{color: "grey"}}>Price</Text>
-                  <Text style={{color: "#FAFAFA"}}>1.2 ETH</Text>
-                </View>
+                </TouchableOpacity>
               </TouchableOpacity>
-            </TouchableOpacity>
-          </View>
+              <TouchableOpacity style={styles.buttonPost}>
+                <Text style={{color: "#fff"}} >Photo</Text>
+                <TouchableOpacity style={styles.buttonPostInside}>
+                  <View style={styles.userIcon}>
+                    <View style={styles.iconDashboard} />
+                    <View style={styles.userIconText}>
+                      <Text style={{color: "grey"}}>Owned by</Text>
+                      <Text style={{color: "#FAFAFA"}}>Juniorx</Text>
+                    </View>
+                  </View>
+                  <View style={styles.value}>
+                    <Text style={{color: "grey"}}>Price</Text>
+                    <Text style={{color: "#FAFAFA"}}>1.2 ETH</Text>
+                  </View>
+                </TouchableOpacity>
+              </TouchableOpacity>
+            </View>
+          </ScrollView>
         </View>
       </SafeAreaView>
     </>
