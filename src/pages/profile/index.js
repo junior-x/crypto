@@ -31,9 +31,9 @@ export default function Profile() {
                         <Text style={styles.title}>Juniorx</Text>
                         <Text style={styles.subtitle}>@drift3rx</Text>
                     </View>
-                    <View>
-                        <TouchableOpacity style={"#"}></TouchableOpacity>
-                        <TouchableOpacity style={"#"}></TouchableOpacity>
+                    <View style={styles.divFilter}>
+                        <TouchableOpacity style={styles.buttonFilter1}></TouchableOpacity>
+                        <TouchableOpacity style={styles.buttonFilter2}></TouchableOpacity>
                     </View>
                 </LinearGradient>
                 <ScrollView>

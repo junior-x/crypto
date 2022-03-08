@@ -14,7 +14,7 @@
 .divProfileItems {
     align-items: center;
     justify-content: center;   
-    margin-vertical: 30px;
+    margin-top: 30px;
 }
 
 .divInput {
@@ -115,3 +115,35 @@
   border-width: 1px;
   border-color: #fff;
 }
+
+.divFilter {
+  flex-direction: row;
+  margin-vertical:15px;
+}
+
+.divFilterIcon2 {
+  margin: 9px;
+  width: 9px;
+  height: 9px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #fff;
+}
+
+.buttonFilter1 {
+  margin: 9px;
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  background-color: rgba(200, 200, 200, 0.3);
+}
+
+.buttonFilter2 {
+  margin: 9px;
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  background-color: rgba(200, 200, 200, 0.3);
+  flex-wrap: wrap;
+}
+
