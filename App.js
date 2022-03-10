@@ -13,8 +13,8 @@ export default function App() {
         <StatusBar hidden />
         {/* <LogIn /> */}
         {/* <Dashboard /> */}
-        <Profile/>
-        {/* <NFT /> */}
+        {/* <Profile/> */}
+        <NFT />
       </SafeAreaView>
     </>
   );

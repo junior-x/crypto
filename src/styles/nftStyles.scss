@@ -5,10 +5,44 @@
     justify-content: center;
 }
 
+.divOwned {
+    width: 81%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-width: 1px 0px 1px 0px;
+    border-color: rgba(255, 255, 255, 0.1);
+} 
+
+.divGeneral {
+    width: 81%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.divMargin {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
 .divInput {
     width: 81%;
     margin-top: 45px;
     margin-bottom: 45px;
+}
+
+.divArtwork {
+    height: 36%;
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border-color: grey;
+    border-width: 0px 0px 1px 0px;
 }
 
 .inputLogin {
@@ -45,8 +79,8 @@
 .buttonOutline {
     align-items: center;
     justify-content: center;
-    width: 81%;
-    height: 45px; 
+    width: 39%;
+    height: 54px; 
     border-radius: 12px;
     border-width: 1px;
     border-color: #fff;
@@ -62,6 +96,14 @@
     color: grey;
 }
 
+.subtitleWhite {
+    color: white;
+}
+
+.titleId {
+    color: #8b73c7;
+}
+
 .divider {
     margin-top: 45px;
     margin-bottom: 45px;
@@ -70,8 +112,8 @@
 }
 
 .icon {
-    height: 120px;
-    width: 120px;
+    height: 60px;
+    width: 60px;
     border-radius: 90px;
     border-color: grey;
     border-width: 1px;
