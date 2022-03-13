@@ -8,7 +8,7 @@ React Native CLI App with Sass
  
  <p align="center"><em>Simple social media app about NFTs using React-Native CLI.</p>
 
- ![App Preview](/assets/print/05.jpg)
+ ![App Preview](/assets/print/06.jpg)
 .
 
 <p align="center"><em>Links para o SITE && PROJETO </p>
@@ -57,6 +57,11 @@ React Native CLI App with Sass
 <p align="center" float="left">filter button div created. </p>
 
  ![App Preview](/assets/print/05.jpg)
+
+----
+<p align="center" float="left">Layout adjusts. </p>
+
+ ![App Preview](/assets/print/06.jpg)
 
 ----
 <!-- <p align="center" float="left">função para passar as propriedades de cada informação. </p>

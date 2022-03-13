@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    margin-bottom: 21px;
     border-width: 1px 0px 1px 0px;
     border-color: rgba(255, 255, 255, 0.1);
 } 
@@ -29,6 +30,15 @@
     flex-direction: row;
     margin-top: 12px;
     margin-bottom: 12px;
+}
+
+.divGeneralButtonNft {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 21px;
+    margin-bottom: 12px;
+    width:  81%;
 }
 
 .divMargin {
@@ -94,6 +104,16 @@
     border-color: #fff;
 }
 
+.buttonOutlineNft {
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    height: 54px; 
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: #fff;
+}
+
 .title {
     font-size: 42px;
     font-weight: bold;
@@ -123,6 +143,7 @@
     height: 60px;
     width: 60px;
     border-radius: 90px;
-    border-color: grey;
+    border-color: #8b73c7;
     border-width: 1px;
+    margin-right: 10px;
 }
