@@ -10,11 +10,15 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.2.0",
+    "@react-navigation/native": "^6.0.8",
     "node-sass": "^7.0.1",
     "react": "17.0.2",
     "react-native": "0.67.3",
     "react-native-linear-gradient": "^2.5.6",
-    "react-native-sass-transformer": "^2.0.0"
+    "react-native-safe-area-context": "^4.1.2",
+    "react-native-sass-transformer": "^2.0.0",
+    "react-native-screens": "^3.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
