@@ -8,7 +8,7 @@ React Native CLI App with Sass
  
  <p align="center"><em>Simple social media app about NFTs using React-Native CLI.</p>
 
- ![App Preview](/assets/print/06.jpg)
+ ![App Preview](/assets/print/07.jpg)
 .
 
 <p align="center"><em>Links para o SITE && PROJETO </p>
@@ -62,6 +62,13 @@ React Native CLI App with Sass
 <p align="center" float="left">Layout adjusts. </p>
 
  ![App Preview](/assets/print/06.jpg)
+
+----
+<p align="center" float="left">Bottom Nav Bar implementation.</p>
+<p align="center" float="left">React Navigation is made up of some core utilities and those are then used by navigators to create the navigation structure in your app. </p>
+<p align="center" float="left">npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view. </p>
+
+ ![App Preview](/assets/print/07.jpg)
 
 ----
 <!-- <p align="center" float="left">função para passar as propriedades de cada informação. </p>

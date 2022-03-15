@@ -1,23 +1,23 @@
-import React from 'react';
-import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
+// import React from 'react';
+// import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 
-import Dashboard from "./src/pages/dashboard";
-import Profile from "./src/pages/profile";
-import NFT from "./src/pages/nft";
+// import Dashboard from "./src/pages/dashboard";
+// import Profile from "./src/pages/profile";
+// import NFT from "./src/pages/nft";
 
 
-export default function BottomNavigator() {
+// export default function BottomNavigator() {
 
-  const Tab = createMaterialBottomTabNavigator();
+//   const Tab = createMaterialBottomTabNavigator();
   
-  return (
-    <Tab.Navigator>
-      <Tab.Screen name="Dashhboard" component={Dashboard} />
-      <Tab.Screen name="Profile" component={Profile} />
-      <Tab.Screen name="NFT" component={NFT} />
-    </Tab.Navigator>
-  );
-}
+//   return (
+//     <Tab.Navigator>
+//       <Tab.Screen name="Dashhboard" component={Dashboard} />
+//       <Tab.Screen name="Profile" component={Profile} />
+//       <Tab.Screen name="NFT" component={NFT} />
+//     </Tab.Navigator>
+//   );
+// }
 
 // import React from "react";
 
