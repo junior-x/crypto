@@ -9,7 +9,7 @@ import {
   TouchableOpacity
 } from "react-native";
 
-export default function LogIn() {
+export default function LogIn({ navigation }) {
   return (
     <>
       <SafeAreaView>
@@ -30,7 +30,7 @@ export default function LogIn() {
                 placeholderTextColor="grey" 
               />
           </View>
-          <TouchableOpacity style={styles.buttonEntrar}><Text style={{color: "#fff"}} >Entrar</Text></TouchableOpacity>
+          <TouchableOpacity style={styles.buttonEntrar}><Text style={{color: "#fff"}} onPress={() => navigation.navigate('Dashboard')}>Entrar</Text></TouchableOpacity>
           <View style={styles.divider} />
           <TouchableOpacity style={styles.buttonOutline}><Text style={{color: "#fff"}} >Entrar com Metamask</Text></TouchableOpacity>
         </View>
