@@ -54,6 +54,15 @@
     border-radius: 45px;
     border-width: 1px;
     border-color: #fff;
+    position: absolute;
+}
+
+.imagePost {
+    width: 310px;
+    height: 310px;
+    border-radius: 45px;
+    overflow: hidden;
+    
 }
 
 .buttonPostInside {
@@ -95,6 +104,12 @@
     flex: 1;
 }
 
+.dividerImage {
+    width: 310px;
+    height: 310px;
+    border-radius: 45px;
+}
+
 .topBar {
     width: 81%;
     margin-top: 45px;
@@ -106,8 +121,15 @@
     height: 45px;
     width: 45px;
     border-radius: 90px;
-    border-color: grey;
-    border-width: 1px;
+    // border-color: grey;
+    // border-width: 1px;
+}
+
+.iconDashboardImage {
+    justify-content: flex-start;
+    border-radius: 90px;
+    height: 45px;
+    width: 45px;
 }
 
 .iconBurger {
