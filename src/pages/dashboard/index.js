@@ -38,11 +38,11 @@ export default function Dashboard() {
           </View>
           <ScrollView overflow={false}>
               <DashboardPost/>
+              {/* <DashboardPost/>
               <DashboardPost/>
               <DashboardPost/>
               <DashboardPost/>
-              <DashboardPost/>
-              <DashboardPost/>
+              <DashboardPost/> */}
           </ScrollView>
         </View>
       </SafeAreaView>
