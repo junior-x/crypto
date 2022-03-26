@@ -8,7 +8,10 @@ import {
 import React from "react";
 import LinearGradient from 'react-native-linear-gradient';
 import styles from "./../../styles/profileStyles.scss";
-import stylesTopBar from "./../../styles/topBarStyles.scss"
+import stylesTopBar from "./../../styles/topBarStyles.scss";
+
+import PostImg from "./../../../assets/img/img01.png";
+
 export default function Profile() {
 
     return (
@@ -20,7 +23,8 @@ export default function Profile() {
                     start={{ x: 0, y: 0.60 }}
                     end={{ x: 0, y: 0.81 }}
                 >
-                    <View style={stylesTopBar.topBar}>
+                <Image source={PostImg} resizeMode='cover' style={styles.profilePostImage}></Image>
+                    <View style={stylesTopBar.topBarAbsolute}>
                         <View style={stylesTopBar.iconDashboard} />
                         <View style={stylesTopBar.iconBurger} />
                     </View>

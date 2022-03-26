@@ -42,7 +42,8 @@
 
 .searchButtons {
     flex-direction: row;
-    margin-top: 18px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .buttonPost {
@@ -52,8 +53,8 @@
     width: 310px;
     height: 310px; 
     border-radius: 45px;
-    border-width: 1px;
-    border-color: #fff;
+    // border-width: 1px;
+    // border-color: #fff;
     position: absolute;
 }
 
@@ -62,15 +63,16 @@
     height: 310px;
     border-radius: 45px;
     overflow: hidden;
-    
 }
 
 .buttonPostInside {
     width: 100%;
-    height: 100px; 
+    height: 72px; 
     border-bottom-left-radius: 45px;
     border-bottom-right-radius: 45px;
     background-color: rgba(221, 186, 253, 0.205);
+    padding-left: 6px;
+    padding-right: 6px;
     // border-width: 1px;
     // border-color: #fff;
     flex-direction: row;
@@ -101,6 +103,7 @@
 
 .divider {
     margin-top: 12px;
+    margin-bottom: 12px;
     color: grey;
     flex: 1;
 }

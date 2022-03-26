@@ -5,9 +5,12 @@ import {
   SafeAreaView,
   View,
   Text,
+  Image,
   TextInput,
   TouchableOpacity
 } from "react-native";
+
+import Logo from "./../../assets/logo.png"
 
 export default function LogIn({ navigation }) {
   return (
@@ -15,7 +18,9 @@ export default function LogIn({ navigation }) {
       <SafeAreaView>
         <StatusBar hidden />
         <View style={styles.div}>
-          <View style={styles.icon} />
+          <View style={styles.icon}>
+            <Image source={Logo} style={styles.iconLogo}></Image>
+          </View>
           <Text style={styles.title} >Crypto</Text>
           <Text style={styles.subtitle} >O maior marketplace de NFTs do Brasil</Text>
           <View style={styles.divInput}>
@@ -30,8 +35,8 @@ export default function LogIn({ navigation }) {
               placeholderTextColor="grey"
             />
           </View>
-          <TouchableOpacity style={styles.buttonEntrar}><Text style={{ color: "#fff" }} onPress={() => navigation.navigate('Dashboard')}>Entrar</Text></TouchableOpacity>
-          <View style={styles.divider} />
+          <TouchableOpacity style={styles.buttonEntrar} onPress={() => navigation.navigate('Dashboard')}><Text style={{ color: "#fff" }} >Entrar</Text></TouchableOpacity>
+            <View style={styles.divider} />
           <TouchableOpacity style={styles.buttonOutline}><Text style={{ color: "#fff" }} >Entrar com Metamask</Text></TouchableOpacity>
         </View>
       </SafeAreaView>

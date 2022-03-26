@@ -15,7 +15,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-export default function DashboardPost() {
+export default function DashboardPost({ navigation }) {
   return (
     <>
       <View style={styles.divider} >
@@ -24,7 +24,7 @@ export default function DashboardPost() {
             <View style={styles.dividerImage}>
               <Image source={PostImage} resizeMode='cover'  style={styles.imagePost}></Image>
             </View>
-            <TouchableOpacity style={styles.buttonPost}>
+            <TouchableOpacity style={styles.buttonPost} onPress={() => navigation.navigate('NFT')}>
               <View />
               <TouchableOpacity style={styles.buttonPostInside}>
                 {/* <BlurView></BlurView> */}
@@ -53,7 +53,6 @@ export default function DashboardPost() {
             <TouchableOpacity style={styles.buttonPost}>
               <View />
               <TouchableOpacity style={styles.buttonPostInside}>
-                {/* <BlurView></BlurView> */}
                 <View style={styles.userIcon}>
                   <View style={styles.iconDashboard}><Image source={PostIcon} resizeMode='contain' style={styles.iconDashboardImage}></Image></View>
                   <View style={styles.userIconText}>
@@ -68,7 +67,7 @@ export default function DashboardPost() {
               </TouchableOpacity>
             </TouchableOpacity>
           </View>
-        </View>
+          </View>
       </View>
       <View style={styles.divider} >
         <View style={styles.div}>

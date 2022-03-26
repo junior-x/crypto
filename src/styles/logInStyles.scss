@@ -70,9 +70,11 @@
 }
 
 .icon {
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     border-radius: 90px;
-    border-color: grey;
-    border-width: 1px;
+}
+
+.iconLogo {
+    flex: 1;
 }
