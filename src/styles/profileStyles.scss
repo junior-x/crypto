@@ -11,10 +11,21 @@
   align-items: center;
 }
 
+.divProfileGradient {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .divProfileItems {
-    align-items: center;
-    justify-content: center;   
-    margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  justify-content: flex-end;
+  position: absolute;
+  height: 120%;
 }
 
 .divInput {
@@ -102,7 +113,7 @@
 .iconCheck {
   height: 30px;
   width: 30px;
-  position: absolute ;
+  position: absolute;
 }
 
 .profilePost {
@@ -111,6 +122,7 @@
   flex: 1;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-top: 54px;
 }
 
 .buttonPost {
@@ -118,13 +130,13 @@
   width: 177px;
   height: 177px;
   border-radius: 30px;
-  border-width: 1px;
-  border-color: #fff;
+  // border-width: 1px;
+  // border-color: #fff;
 }
 
 .divFilter {
   flex-direction: row;
-  margin-vertical:15px;
+  margin-vertical: 15px;
 }
 
 .divFilterIcon2 {
@@ -156,7 +168,20 @@
 .profilePostImage {
   justify-content: flex-start;
   ///flex: 1;
- /// border-radius: 90px;
+  /// border-radius: 90px;
   // height: 45px;
   width: 100%;
+}
+
+.imagePostProfile {
+  width: 177px;
+  height: 177px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.imagePostFilter {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
 }
