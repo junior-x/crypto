@@ -8,7 +8,11 @@ React Native CLI App with Sass
  
  <p align="center"><em>Simple social media app about NFTs using React-Native CLI.</p>
 
- ![App Preview](/assets/print/15.jpg)
+ ![App Preview](/assets/print/00.jpg)
+
+# Last update !!
+
+ ![App Preview](/assets/print/19.jpg)
 .
 
 <p align="center"><em>Links para o SITE && PROJETO </p>
@@ -111,6 +115,26 @@ React Native CLI App with Sass
 <p align="center" float="left">Images container and bottom navigation buged somehow...</p>
 
  ![App Preview](/assets/print/15.jpg)
+
+----
+<p align="center" float="left">Images container and bottom navigation buged somehow...</p>
+
+ ![App Preview](/assets/print/16.jpg)
+
+----
+<p align="center" float="left">Images container and bottom navigation buged somehow...</p>
+
+ ![App Preview](/assets/print/17.jpg)
+
+----
+<p align="center" float="left">Images container and bottom navigation buged somehow...</p>
+
+ ![App Preview](/assets/print/18.jpg)
+
+----
+<p align="center" float="left">Images container and bottom navigation buged somehow...</p>
+
+ ![App Preview](/assets/print/19.jpg)
 
 ----
 <!-- <p align="center" float="left">função para passar as propriedades de cada informação. </p>
