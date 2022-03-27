@@ -85,18 +85,24 @@
   height: 90px;
   width: 90px;
   border-radius: 90px;
-  border-color: grey;
-  border-width: 1px;
+  // border-color: grey;
+  // border-width: 1px;
   align-items: flex-end;
   justify-content: flex-end;
+}
+
+.iconProfile {
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
+  flex: 1;
+  overflow: hidden;
 }
 
 .iconCheck {
   height: 30px;
   width: 30px;
-  border-radius: 90px;
-  border-color: #72c3db;
-  border-width: 1px;
+  position: absolute ;
 }
 
 .profilePost {

@@ -11,6 +11,7 @@ import {
 } from "react-native";
 
 import Logo from "./../../assets/logo.png"
+import { Icon } from "react-native-vector-icons";
 
 export default function LogIn({ navigation }) {
   return (
@@ -27,12 +28,14 @@ export default function LogIn({ navigation }) {
             <TextInput
               style={styles.inputLogin}
               placeholder="Login"
+              color="white"
               placeholderTextColor="lightgrey"
-            />
+            ></TextInput>
             <TextInput
               style={styles.inputPassword}
               placeholder="Senha"
-              placeholderTextColor="grey"
+              color="white"
+              placeholderTextColor="lightgrey"
             />
           </View>
           <TouchableOpacity style={styles.buttonEntrar} onPress={() => navigation.navigate('Dashboard')}><Text style={{ color: "#fff" }} >Entrar</Text></TouchableOpacity>

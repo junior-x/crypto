@@ -11,6 +11,8 @@ import styles from "./../../styles/profileStyles.scss";
 import stylesTopBar from "./../../styles/topBarStyles.scss";
 
 import PostImg from "./../../../assets/img/img01.png";
+import IconCheck from "./../../../assets/img/check.png";
+import IconProfile from "./../../../assets/img/icon.png";
 
 export default function Profile() {
 
@@ -30,7 +32,9 @@ export default function Profile() {
                     </View>
                     <View style={styles.divProfileItems}>
                         <TouchableOpacity style={styles.icon}>
-                            <View style={styles.iconCheck}></View>
+                            <Image source={IconProfile} style={styles.iconProfile} resizeMode='cover'></Image>
+                            {/* <View style={styles.iconCheck}></View> */}
+                            <Image source={IconCheck} style={styles.iconCheck}></Image>
                         </TouchableOpacity>
                         <Text style={styles.title}>Juniorx</Text>
                         <Text style={styles.subtitle}>@drift3rx</Text>
