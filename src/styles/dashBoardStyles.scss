@@ -6,16 +6,16 @@
 }
 
 .divInput {
-    width: 81%;
-    margin-top: 36px;
+    width: 93%;
+    margin-top: 18px;
 }
 
 .inputSearch {
     height: 51px;
     border-width: 1px;
     border-color: grey;
-    width: 100%;
-    padding: 10px;
+    width: 72%;
+    padding-left: 21px;
     border-radius: 30px;
 }
 
@@ -42,7 +42,7 @@
 
 .searchButtons {
     flex-direction: row;
-    margin-top: 12px;
+    ///margin-top: 12px;
     margin-bottom: 12px;
 }
 
@@ -50,8 +50,8 @@
     margin-bottom: 30px;
     align-items: center;
     justify-content: space-between;
-    width: 310px;
-    height: 310px; 
+    width: 390px;
+    height: 330px; 
     border-radius: 45px;
     // border-width: 1px;
     // border-color: #fff;
@@ -59,14 +59,13 @@
 }
 
 .imagePost {
-    width: 310px;
-    height: 310px;
+    width: 370px;
+    height: 330px;
     border-radius: 45px;
-    overflow: hidden;
 }
 
 .buttonPostInside {
-    width: 100%;
+    width: 370px;
     height: 66px; 
     border-bottom-left-radius: 45px;
     border-bottom-right-radius: 45px;
@@ -85,6 +84,7 @@
     border-bottom-right-radius: 45px;
     flex-direction: row;
     margin: 10px;
+    align-items: center;
 }
 
 .userIconText { 
@@ -102,21 +102,24 @@
 }
 
 .divider {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
     color: grey;
     flex: 1;
+    width: 100%;
+    align-items: center;
 }
 
 .dividerImage {
-    width: 310px;
-    height: 310px;
+    width: 100%;
+    height: 330px;
+    align-items: center;
     border-radius: 45px;
 }
 
 .topBar {
-    width: 81%;
-    margin-top: 45px;
+    width: 93%;
+    margin-top: 18px;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -125,12 +128,12 @@
     height: 45px;
     width: 45px;
     border-radius: 90px;
-    // border-color: grey;
-    // border-width: 1px;
+    align-items: center;
 }
 
 .iconDashboardImage {
     justify-content: flex-start;
+    flex: 1;
     border-radius: 90px;
     height: 45px;
     width: 45px;

@@ -1,24 +1,31 @@
 .topBar {
-    width: 81%;
+    width: 93%;
     margin-top: 45px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topBarDashboard {
+    width: 93%;
+    margin-top: 39px;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .topBarAbsolute {
     position: absolute;
-    width: 81%;
+    width:93%;
     margin-top: 45px;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .iconDashboard {
-    height: 45px;
-    width: 45px;
+    height: 54px;
+    width: 54px;
     border-radius: 90px;
-    border-color: grey;
-    border-width: 1px;
+    // border-color: grey;
+    // border-width: 1px;
 }
 
 .iconBurger {

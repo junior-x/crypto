@@ -15,6 +15,8 @@ import PostImg from "./../../../assets/img/img01.png";
 import IconCheck from "./../../../assets/img/check.png";
 import IconProfile from "./../../../assets/img/icon.png";
 
+import ProfileLogo from "./../../../assets/logoWhite.png";
+
 import PostImg2 from "./../../../assets/img/img02.png";
 import PostImg3 from "./../../../assets/img/img03.png";
 import PostImg4 from "./../../../assets/img/img04.png";
@@ -42,8 +44,9 @@ export default function Profile() {
                             end={{ x: 0, y: 0.84 }}
                         />
                         <View style={stylesTopBar.topBarAbsolute}>
-                            <View style={stylesTopBar.iconDashboard} />
-                            <View style={stylesTopBar.iconBurger} />
+                            <Image source={ProfileLogo} style={stylesTopBar.iconDashboard} resizeMode='contain'></Image>
+                            {/* <View style={stylesTopBar.iconBurger} /> */}
+                            <View></View>
                         </View>
                         <View style={styles.divProfileItems}>
                             <TouchableOpacity style={styles.icon}>

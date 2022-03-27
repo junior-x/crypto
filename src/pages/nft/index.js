@@ -33,12 +33,12 @@ export default function NFT({ navigation }) {
                                 <Text style={styles.subtitleWhite}>Juniorx</Text>
                             </View>
                         </View>
-                        <TouchableOpacity style={styles.buttonOutline}>
-                            <Text style={styles.subtitleWhite}>Seguir</Text>
+                        <TouchableOpacity style={styles.buttonOutlineSeguir}>
+                            <Text style={styles.subtitleBlack}>Seguir</Text>
                         </TouchableOpacity>
                     </View>
-                    <View  >
-                        <View style={styles.divGeneral}>
+                    <View style={styles.divSpace} >
+                        <View style={styles.divNft}>
                             <Text style={styles.subtitleWhite}>Ultimos Lances</Text>
                         </View >
                         <View style={styles.divGeneralButtonNft}>

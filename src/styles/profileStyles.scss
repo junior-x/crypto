@@ -125,6 +125,11 @@
   padding-top: 54px;
 }
 
+.profilePostImage {
+  width: 100%;
+  
+}
+
 .buttonPost {
   margin: 9px;
   width: 177px;
@@ -163,14 +168,6 @@
   border-radius: 9px;
   background-color: rgba(200, 200, 200, 0.3);
   flex-wrap: wrap;
-}
-
-.profilePostImage {
-  justify-content: flex-start;
-  ///flex: 1;
-  /// border-radius: 90px;
-  // height: 45px;
-  width: 100%;
 }
 
 .imagePostProfile {

@@ -11,6 +11,7 @@ import {
 } from "react-native";
 
 import Logo from "./../../assets/logo.png"
+import LogoMask from "./../../assets/logoMask.png"
 import { Icon } from "react-native-vector-icons";
 
 export default function LogIn({ navigation }) {
@@ -38,9 +39,14 @@ export default function LogIn({ navigation }) {
               placeholderTextColor="lightgrey"
             />
           </View>
-          <TouchableOpacity style={styles.buttonEntrar} onPress={() => navigation.navigate('Dashboard')}><Text style={{ color: "#fff" }} >Entrar</Text></TouchableOpacity>
+          <TouchableOpacity style={styles.buttonEntrar} onPress={() => navigation.navigate('Dashboard')}>
+            <Text style={{ color: "#fff" }} >Entrar</Text>
+          </TouchableOpacity>
             <View style={styles.divider} />
-          <TouchableOpacity style={styles.buttonOutline}><Text style={{ color: "#fff" }} >Entrar com Metamask</Text></TouchableOpacity>
+          <TouchableOpacity style={styles.buttonOutline}>
+            <Text style={{ color: "#fff" }} >Entrar com Metamask</Text>
+            <Image source={LogoMask} style={styles.iconDashboard}></Image>
+          </TouchableOpacity>
         </View>
       </SafeAreaView>
     </>
