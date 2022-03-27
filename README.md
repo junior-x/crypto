@@ -8,7 +8,7 @@ React Native CLI App with Sass
  
  <p align="center"><em>Simple social media app about NFTs using React-Native CLI.</p>
 
- ![App Preview](/assets/print/00.jpg)
+ ![App Preview](/assets/print/00.png)
 
 # Last update !!
 
