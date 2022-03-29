@@ -45,7 +45,7 @@ export default function NFT({ navigation }) {
                             <TouchableOpacity style={styles.buttonOutlineNft}>
                                 <Text style={styles.subtitleWhite}>1.2ETH</Text>
                             </TouchableOpacity>
-                            <TouchableOpacity style={styles.buttonOutlineNft}>
+                            <TouchableOpacity style={styles.buttonOutlineNftPurple}>
                                 <Text style={styles.subtitleWhite}>Comprar</Text>
                             </TouchableOpacity>
                         </View>
