@@ -42,7 +42,7 @@ export default function Profile() {
                             colors={['rgba(35, 32, 46, 0.1)', 'rgba(35, 32, 46, 1)']}
                             start={{ x: 0, y: 0.39 }}
                             end={{ x: 0, y: 0.84 }}
-                        />
+                        /> 
                         <View style={stylesTopBar.topBarAbsolute}>
                             <Image source={ProfileLogo} style={stylesTopBar.iconDashboard} resizeMode='contain'></Image>
                             {/* <View style={stylesTopBar.iconBurger} /> */}
