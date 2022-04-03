@@ -92,47 +92,47 @@ React Native CLI App with Sass
  ![App Preview](/assets/print/10.jpg)
 
 ----
-<p align="center" float="left">Images container and bottom navigation buged somehow...</p>
+<p align="center" float="left">Dashboard profile button styles over NFT.</p>
 
  ![App Preview](/assets/print/11.jpg)
 
 ----
-<p align="center" float="left">Images container and bottom navigation buged somehow...</p>
+<p align="center" float="left">Beggining the profile UI development.</p>
 
  ![App Preview](/assets/print/12.jpg)
 
 ----
-<p align="center" float="left">Images container and bottom navigation buged somehow...</p>
+<p align="center" float="left">Profile pages importing statics assets.</p>
 
  ![App Preview](/assets/print/13.jpg)
 
 ----
-<p align="center" float="left">Images container and bottom navigation buged somehow...</p>
+<p align="center" float="left">Styles and position for the components.</p>
 
  ![App Preview](/assets/print/14.jpg)
 
 ----
-<p align="center" float="left">Images container and bottom navigation buged somehow...</p>
+<p align="center" float="left">Mocks for the NFTs when the user click for more infos.</p>
 
  ![App Preview](/assets/print/15.jpg)
 
 ----
-<p align="center" float="left">Images container and bottom navigation buged somehow...</p>
+<p align="center" float="left">Dashboard styles lapidations.</p>
 
  ![App Preview](/assets/print/16.jpg)
 
 ----
-<p align="center" float="left">Images container and bottom navigation buged somehow...</p>
+<p align="center" float="left">Login assets</p>
 
  ![App Preview](/assets/print/17.jpg)
 
 ----
-<p align="center" float="left">Images container and bottom navigation buged somehow...</p>
+<p align="center" float="left">NFTs more styles and fixing some bugs</p>
 
  ![App Preview](/assets/print/18.jpg)
 
 ----
-<p align="center" float="left">Images container and bottom navigation buged somehow...</p>
+<p align="center" float="left">Logo and remove the hamburger interaction.</p>
 
  ![App Preview](/assets/print/19.jpg)
 
