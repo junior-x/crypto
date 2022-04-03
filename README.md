@@ -114,8 +114,11 @@ React Native CLI App with Sass
 ----
 <p align="center" float="left">Mocks for the NFTs when the user click for more infos.</p>
 
- ![App Preview](/assets/print/15.jpg)
-
+<details>
+<summary>
+<img src="/assets/print/15.jpg" title="print">
+</summary>
+</details>
 ----
 <p align="center" float="left">Dashboard styles lapidations.</p>
 
